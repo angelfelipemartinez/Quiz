@@ -9,7 +9,7 @@ router.get('/', function(req, res) {
 });
 
 /* GET author page. */
-router.get('/author', function(req,res){
+router.get('/author/author', function(req,res){
 	res.render('author/author', {title: 'Autor'});
 });
 
